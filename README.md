@@ -1,4 +1,4 @@
-# Dagwood
+# Dagwood 🥪
 
 Dagwood is a simple logging tool that lets you setup logging to file and to console in one step.
 

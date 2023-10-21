@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='dagwood',
-    version='1.0.1',
+    version='1.0.2',
     packages=find_packages(),
     install_requires=[
         # any future dependencies
