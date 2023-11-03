@@ -1,4 +1,11 @@
-# Dagwood 🥪
+# Dagwood 
+
+[![PyPI version](https://badge.fury.io/py/dagwood.svg)](https://badge.fury.io/py/dagwood)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<img src="dagwood.png" alt="Dagwood Bumstead" align="right" />
+
+<br/>
 
 Dagwood is a simple logging tool that lets you setup logging to file and to console in one step.
 
