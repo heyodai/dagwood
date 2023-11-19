@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+from .http_codes import *
 
 def assemble(
         folder_name:str = 'logs', 

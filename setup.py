@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from dagwood.version import __version__
 
 # Read in the README.md for the long description.
 with open('README.md', 'r', encoding='utf-8') as f:
@@ -6,14 +7,14 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='dagwood',
-    version='1.0.3',
+    version=__version__,
     packages=find_packages(),
     install_requires=[
         # any future dependencies
     ],
     author='Odai Athamneh',
     author_email='heyodai@gmail.com',
-    description='Simple logging tool. Write to console and to file in one step.',
+    description='Swiss-army knife for Python scripts. Includes logging, HTTP status codes, and more.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/heyodai/dagwood',
